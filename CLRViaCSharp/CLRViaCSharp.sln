@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterOne", "ChapterOne\ChapterOne.csproj", "{366C6983-6572-4F4E-A505-3F02E8E87B60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterTwelfth", "ChapterTwelfth\ChapterTwelfth.csproj", "{A4D17515-9604-471D-B9AD-C9190490386A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-泛型", "12-泛型", "{41B17240-8908-46AB-9C10-52F2104ADEBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{366C6983-6572-4F4E-A505-3F02E8E87B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{366C6983-6572-4F4E-A505-3F02E8E87B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{366C6983-6572-4F4E-A505-3F02E8E87B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D17515-9604-471D-B9AD-C9190490386A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D17515-9604-471D-B9AD-C9190490386A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D17515-9604-471D-B9AD-C9190490386A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D17515-9604-471D-B9AD-C9190490386A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4D17515-9604-471D-B9AD-C9190490386A} = {41B17240-8908-46AB-9C10-52F2104ADEBC}
 	EndGlobalSection
 EndGlobal
