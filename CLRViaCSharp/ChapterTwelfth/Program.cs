@@ -11,8 +11,16 @@ namespace ChapterTwelfth
     {
         static void Main(string[] args)
         {
-            new ListCompareToArrayList().ValueTypePerfTest();
+
+            MethodOne();
             Console.ReadKey();
+        }
+        /// <summary>
+        /// ArrayList 和List性能测试
+        /// </summary>
+        static void MethodOne()
+        {
+            new ListCompareToArrayList().ValueTypePerfTest();
         }
     }
 }

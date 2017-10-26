@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ChapterTwelfth.Code
 {
+    /// <summary>
+    /// ArrayList 和List性能测试
+    /// </summary>
     public class ListCompareToArrayList
     {
         public void ValueTypePerfTest()
