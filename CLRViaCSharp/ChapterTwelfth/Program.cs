@@ -12,7 +12,9 @@ namespace ChapterTwelfth
         static void Main(string[] args)
         {
 
-            MethodOne();
+            //MethodOne();
+
+            MethodTwo();
             Console.ReadKey();
         }
         /// <summary>
@@ -21,6 +23,15 @@ namespace ChapterTwelfth
         static void MethodOne()
         {
             new ListCompareToArrayList().ValueTypePerfTest();
+        }
+
+        static void MethodTwo()
+        {
+            Node head = new NodeType<char>(',');
+
+            head = new NodeType<DateTime>(DateTime.Now,head);
+            head = new NodeType<string>("Today is ",head);
+          Console.WriteLine(  head.ToString());
         }
     }
 }
