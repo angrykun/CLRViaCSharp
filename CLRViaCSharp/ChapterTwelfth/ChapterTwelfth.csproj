@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\GeneicDelegate.cs" />
     <Compile Include="Code\GenericExtends.cs" />
     <Compile Include="Code\ListCompareToArrayList.cs" />
     <Compile Include="Code\OperatorTimer.cs" />
