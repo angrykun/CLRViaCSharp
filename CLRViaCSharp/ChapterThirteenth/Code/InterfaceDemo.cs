@@ -36,7 +36,7 @@ namespace ChapterThirteenth.Code
     #endregion
     public class InterfaceDemo
     {
-        Comparer
+        
             
     }
 
