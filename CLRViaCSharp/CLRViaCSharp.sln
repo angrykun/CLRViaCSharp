@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-接口", "13-接口", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterThirteenth", "ChapterThirteenth\ChapterThirteenth.csproj", "{CD55754F-4721-4BD0-84DD-789B22E8983F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-字符串", "14-字符串", "{71113622-4940-4232-B38C-F60D2AEF64AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourteenth", "Fourteenth\Fourteenth.csproj", "{4ABB856F-165E-4116-843C-88FAB420214B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{CD55754F-4721-4BD0-84DD-789B22E8983F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD55754F-4721-4BD0-84DD-789B22E8983F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD55754F-4721-4BD0-84DD-789B22E8983F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABB856F-165E-4116-843C-88FAB420214B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABB856F-165E-4116-843C-88FAB420214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABB856F-165E-4116-843C-88FAB420214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABB856F-165E-4116-843C-88FAB420214B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A4D17515-9604-471D-B9AD-C9190490386A} = {41B17240-8908-46AB-9C10-52F2104ADEBC}
 		{CD55754F-4721-4BD0-84DD-789B22E8983F} = {D66DD8ED-5002-4A7C-8093-0CF358F1397A}
+		{4ABB856F-165E-4116-843C-88FAB420214B} = {71113622-4940-4232-B38C-F60D2AEF64AB}
 	EndGlobalSection
 EndGlobal
