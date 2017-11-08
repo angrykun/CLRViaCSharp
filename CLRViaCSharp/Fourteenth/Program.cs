@@ -13,7 +13,13 @@ namespace Fourteenth
         {
             //MethodOne();
 
-            MethodFour();
+            string testStr = "i am a singer";
+            char c = testStr[0];
+            var clonedStr = testStr.Clone();
+            var isSame = object.ReferenceEquals(testStr, clonedStr);
+            var aaa = testStr.ToUpperInvariant();
+
+            //MethodFour();
 
             Console.ReadKey();
         }

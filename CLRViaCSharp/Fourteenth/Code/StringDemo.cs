@@ -13,6 +13,7 @@ namespace Fourteenth.Code
      * 2.使字符串不可变，还意味着在操作或访问一个字符串时不会发生线程同步问题。
      *  CLR可以通过一个String对象共享多个完全一致的String内容，这样能减少系统
      *  中的字符串数量--从而节省内存。
+     *  3.在字符串上执行各种操作，不会实际更改字符串，而是创建一个新的字符串返回。
      * 
      * **/
     #endregion
@@ -77,12 +78,17 @@ namespace Fourteenth.Code
          * 
          * string提供了连个方法来访问这个内部哈希表：
          * ① Intern(string str):在内部哈希表中检查是否有相匹配的。如果存在一个相匹配的字符串，
-         * 就返回这个已经存在的string对象的一个引用。如果不存在完全相同的字符串，就创建字符串的副本，
+         * 就返回这个已经存在的string对象的一个引用。如果不存在完全相同的字符串，就创建字符串(参数)的副本，
          * 将副本添加到内部哈希表中，并返回对这个副本的一个引用。如果应用程序不在保持对原始string对象的
          * 一个引用，垃圾回收器就可以释放那个字符串的内存。
          * ②IsInterned(string str):也获取一个string并在内部哈希表中查找它，如果哈希表中有一个匹配的字符串
          * 就返回对这个字符串的引用。如果哈希表中没有一个匹配的字符串，IsIntern额度会返回null，它不会将字符串
          * 添加到哈希表中。
+         * 
+         * 使用字面量声明的字符串会进入"驻留池(内部哈希表)"，而使用其他方式声明的字符串并不会进入，也就不会自动
+         * 享受CLR防止字符串冗余的机制了。
+         * 
+         * 字符串留用，即使已经不存在任何引用指向驻留池中的字符串，它可能也要等到CLR终结时才被销毁。
          * **/
         /// <summary>
         /// 字符串留用
@@ -116,10 +122,95 @@ namespace Fourteenth.Code
             //在所有字符串都是文本常量字符串时，编译器会在编译时将它们连接成一个字符串。
             string b = "hello" + "world";
             Console.WriteLine(b);
+
+            //变量d  一共进行了四次内存分配(个人理解)
+            //首先在堆上给c分配一次内存空间，同时在内部哈希表中，分配一次内存空间 
+            //将hello 和 world 进行连接操作，同时分配一次内存空间，内部哈希表，分配一次内存空间
+            //最后将d指向新分配的内存空间
+            string c = "hello";
+            string d = c + "world";
+            Console.WriteLine(d);
+        }
+        #endregion
+
+        #region 推荐换行符
+        /// <summary>
+        /// NewLine 是依赖于平台的，它会依据底层平台来返回恰当的字符串。
+        /// </summary>
+        public void RecommandNewLine()
+        {
+            string hi = "Hello" + Environment.NewLine + "world";
+            Console.WriteLine(hi);
+        }
+        #endregion
+
+        #region 字符串连接
+        public void ContactString()
+        {
+            /*
+             * 由于所有字符串都是文本常量字符串，
+             * C#编译器在编译时会连接它们，最终
+             * 只会将"一个"字符串（"Hi there."）
+             * 放到模块元数据中。
+             * **/
+            string s = "Hi" + " " + "there.";
+
+            /*
+             * 对于非文本常量字符串使用+操作符，
+             * 则会在运行时链接，若要在运行时将几个
+             * 字符创链接到一起，请避免使用+连接符，
+             * 因为塔会在堆上创建多个字符串对象，
+             * 而堆是需要垃圾会受到，从而影响性能。
+             * **/
+            string b = s + " I am Fine.";
+        }
+        #endregion
+
+        #region 字符串比较
+        public void CompareString()
+        {
+            string a1 = "Hello";
+            string a11 = "Hello";
+            string a2 = "world";
+            a11.Equals(a1, StringComparison.OrdinalIgnoreCase);
+
+            //如果要更改字符串中的字符大小写，应该使用
+            //ToUpperInvariant，ToLowerInvariant方法。
+            //对字符串进行正规化时，强烈建议使用 ToUpperInvariant
+            //因为微软对执行大写比较代码进行了优化。
+            //事实上，在执行不区分大小写比较式，微软会将字符串
+            //格式化成大写，然后进行比较
+            a11.ToLowerInvariant();
         }
         #endregion
 
 
+        #region StringBuilder 
+        /*
+         * StringBuilder对象包含一个字段，该字段引用了由Char结构构成的一个数组，
+         * 可以利用StringBuilder的各个成员来操作这个字符数组，高效的缩短字符串
+         * 或更改字符串中的字符，如果字符串变大，超过了已分配的字符数组大小，
+         * StringBuilder会自动分配一个新的，更大的数组，复制字符，并开始使用新
+         * 数组。前一个数组会被垃圾回收。
+         * 
+         * 为了将StringBuilder的字符数组转换成一个string，只需要调用ToString()方法
+         * 这样在堆上就会新建一个String对象，其中包含了StringBuilder中的字符串。
+         * 每次调用ToString() 都会在堆上重新生成一个字符串，其中包含了StringBuilder中的字符串。         * 
+         * 
+         * **/
+        public void StringBuilderMethod()
+        {
+
+        }
+        #endregion
+
+        #region Parse解析字符串
+        public void ParseMethod()
+        {
+            //忽略前导空白符  
+            int x = int.Parse(" 123", System.Globalization.NumberStyles.AllowLeadingWhite, null);
+        }
+        #endregion
     }
 
 }

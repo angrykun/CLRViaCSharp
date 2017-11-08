@@ -1,0 +1,6 @@
+E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\FourteenthNet2.0\bin\Debug\FourteenthNet2.0.exe.config
+E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\FourteenthNet2.0\bin\Debug\FourteenthNet2.0.exe
+E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\FourteenthNet2.0\bin\Debug\FourteenthNet2.0.pdb
+E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\FourteenthNet2.0\obj\Debug\FourteenthNet2.0.exe
+E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\FourteenthNet2.0\obj\Debug\FourteenthNet2.0.pdb
+E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\FourteenthNet2.0\obj\Debug\FourteenthNet2.0.csprojResolveAssemblyReference.cache
