@@ -7,28 +7,23 @@ using Fourteenth.Code;
 
 namespace Fourteenth
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //MethodOne();
-
-            string testStr = "i am a singer";
-            char c = testStr[0];
-            var clonedStr = testStr.Clone();
-            var isSame = object.ReferenceEquals(testStr, clonedStr);
-            var aaa = testStr.ToUpperInvariant();
-
             //MethodFour();
-
+            MethodFive();
             Console.ReadKey();
         }
-        static void MethodOne()
+
+        private static void MethodOne()
         {
             StringDemo demo = new StringDemo();
             Console.WriteLine($"minValue={demo.minValue},maxValue={demo.maxValue}");
         }
-        static void MethodTwo()
+
+        private static void MethodTwo()
         {
             char d;
             int c;
@@ -38,7 +33,7 @@ namespace Fourteenth
         /// <summary>
         /// 字符串格式
         /// </summary>
-        static void MethodThree()
+        private static void MethodThree()
         {
             new StringDemo().StringFormat();
         }
@@ -46,9 +41,17 @@ namespace Fourteenth
         /// <summary>
         /// 字符串留用
         /// </summary>
-        static void MethodFour()
+        private static void MethodFour()
         {
             new StringDemo().StringIntern();
+        }
+
+        /// <summary>
+        /// 字节数组和字符转换
+        /// </summary>
+        private static void MethodFive()
+        {
+            new StringDemo().CharsChangeToUnicode();
         }
     }
 }

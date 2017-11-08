@@ -4,3 +4,9 @@ E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\bin\Debug\Fourteen
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\obj\Debug\Fourteenth.csprojResolveAssemblyReference.cache
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\obj\Debug\Fourteenth.exe
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\obj\Debug\Fourteenth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\bin\Debug\Fourteenth.exe.config
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\obj\Debug\Fourteenth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\obj\Debug\Fourteenth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\bin\Debug\Fourteenth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\bin\Debug\Fourteenth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\Fourteenth\obj\Debug\Fourteenth.csprojResolveAssemblyReference.cache
