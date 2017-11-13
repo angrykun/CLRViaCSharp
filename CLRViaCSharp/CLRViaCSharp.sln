@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15-枚举类型", "15-枚�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterFiveth", "ChapterFiveth\ChapterFiveth.csproj", "{10AB4E18-352B-4325-B4F8-FD9AD56BD33B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterSixteenth", "ChapterSixteenth\ChapterSixteenth.csproj", "{A4B039A4-36F1-4BE5-AD37-6290F85291EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-数组", "16-数组", "{006A5F24-FF02-4912-BAEA-1689D99897AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,10 @@ Global
 		{10AB4E18-352B-4325-B4F8-FD9AD56BD33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10AB4E18-352B-4325-B4F8-FD9AD56BD33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10AB4E18-352B-4325-B4F8-FD9AD56BD33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B039A4-36F1-4BE5-AD37-6290F85291EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B039A4-36F1-4BE5-AD37-6290F85291EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B039A4-36F1-4BE5-AD37-6290F85291EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B039A4-36F1-4BE5-AD37-6290F85291EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +71,6 @@ Global
 		{4ABB856F-165E-4116-843C-88FAB420214B} = {71113622-4940-4232-B38C-F60D2AEF64AB}
 		{C4F2488A-9EE5-4961-95AE-F6A1ED3EFBE6} = {71113622-4940-4232-B38C-F60D2AEF64AB}
 		{10AB4E18-352B-4325-B4F8-FD9AD56BD33B} = {03AF9F9F-FDE7-44CE-8827-A63B695D2AA5}
+		{A4B039A4-36F1-4BE5-AD37-6290F85291EE} = {006A5F24-FF02-4912-BAEA-1689D99897AC}
 	EndGlobalSection
 EndGlobal

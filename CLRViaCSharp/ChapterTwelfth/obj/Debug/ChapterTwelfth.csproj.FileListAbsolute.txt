@@ -4,3 +4,9 @@ E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\bin\Debug\Chap
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\obj\Debug\ChapterTwelfth.csprojResolveAssemblyReference.cache
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\obj\Debug\ChapterTwelfth.exe
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\obj\Debug\ChapterTwelfth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\bin\Debug\ChapterTwelfth.exe.config
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\bin\Debug\ChapterTwelfth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\bin\Debug\ChapterTwelfth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\obj\Debug\ChapterTwelfth.csprojResolveAssemblyReference.cache
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\obj\Debug\ChapterTwelfth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterTwelfth\obj\Debug\ChapterTwelfth.pdb
