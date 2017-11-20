@@ -9,24 +9,35 @@ namespace FourteenthNet2._0
     {
         static void Main(string[] args)
         {
-            decimal a = 0.015M;
-            if (a == 0.015M)
+            List<TestClass> tests = new List<TestClass> {
+            new TestClass {   Age=1,Name="A"}  ,
+
+               new TestClass {   Age=1,Name="A"}  ,
+                new TestClass {   Age=1,Name="A"}  ,
+                 new TestClass {   Age=1,Name="A"}  ,
+                  new TestClass {   Age=1,Name="A"}  ,
+                   new TestClass {   Age=1,Name="A"}  ,
+                    new TestClass {   Age=1,Name="A"}  ,
+                     new TestClass {   Age=1,Name="A"}  ,
+                new TestClass {   Age=1,Name="A"}  ,
+
+            };
+            foreach (var item in tests)
             {
-                Console.WriteLine("TRUE");
+                item.Name = "B";
+
             }
-            decimal b = 0.00M;
-            if (b == 0)
-            {
-                Console.WriteLine("TRUE 222");
-            }
+            tests.ForEach(item => Console.WriteLine("Name={0},Age={1}", item.Name, item.Age));
+
 
         }
-        static void Do()
+
+        class TestClass
         {
-            Console.WriteLine("213");
-            Console.WriteLine("hahha");
-
+            public string Name { get; set; }
+            public int Age { get; set; }
         }
+
     }
 }
 
