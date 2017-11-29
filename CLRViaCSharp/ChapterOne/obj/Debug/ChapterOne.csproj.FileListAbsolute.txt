@@ -1,1 +1,7 @@
 E:\AMyProject\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\bin\Debug\ChapterOne.exe.config
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\bin\Debug\ChapterOne.exe.config
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\bin\Debug\ChapterOne.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\bin\Debug\ChapterOne.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\obj\Debug\ChapterOne.csprojResolveAssemblyReference.cache
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\obj\Debug\ChapterOne.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterOne\obj\Debug\ChapterOne.pdb

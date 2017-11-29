@@ -1,0 +1,6 @@
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterThirteenth\bin\Debug\ChapterThirteenth.exe.config
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterThirteenth\bin\Debug\ChapterThirteenth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterThirteenth\bin\Debug\ChapterThirteenth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterThirteenth\obj\Debug\ChapterThirteenth.csprojResolveAssemblyReference.cache
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterThirteenth\obj\Debug\ChapterThirteenth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterThirteenth\obj\Debug\ChapterThirteenth.pdb

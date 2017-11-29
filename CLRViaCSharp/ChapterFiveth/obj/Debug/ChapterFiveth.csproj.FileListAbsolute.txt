@@ -1,0 +1,6 @@
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterFiveth\bin\Debug\ChapterFiveth.exe.config
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterFiveth\bin\Debug\ChapterFiveth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterFiveth\bin\Debug\ChapterFiveth.pdb
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterFiveth\obj\Debug\ChapterFiveth.csprojResolveAssemblyReference.cache
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterFiveth\obj\Debug\ChapterFiveth.exe
+D:\ProjectGit\CLRViaCSharp\CLRViaCSharp\ChapterFiveth\obj\Debug\ChapterFiveth.pdb
